@@ -1,0 +1,25 @@
+#bookImage{
+    width: 5;
+    height: 10;
+}
+
+#CatchWordStyle{
+    font-size:larger;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+#CatchCardStyle{
+    background-color: lightgreen
+}
+
+#ContentStyle{
+    font-weight: bolder;
+    font-size:small
+}
+
+#InnerCardStyle{
+    border-color: darkgray;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
