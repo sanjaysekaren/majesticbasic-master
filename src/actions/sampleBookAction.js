@@ -1,4 +1,4 @@
-import data from './bookData.json';
+// import data from './bookData.json';
 
 // export const sampleBookData = () =>{
 //     return{
@@ -17,7 +17,7 @@ export function sampleBookData() {
                 "catchWord": "A fable about fulfilling your dreams and reaching your destiny",
                 "subject": "Philosophy",
                 "author": "Robin Sharma",
-                "pages": "236",
+                "pages": "288",
                 "edition": "2012",
                 "language": "English",
                 "publisher": "Mc's",
