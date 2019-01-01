@@ -20,6 +20,8 @@ import Footer from "./components/footer";
 import thunk from "redux-thunk";
 import BookDetails from "./components/pages/bookDetails";
 import HeaderNav from "./components/header/header";
+import UserCart from "./components/pages/UserCart";
+import App from './App';
 
 
 const middeware = applyMiddleware(thunk, logger);
@@ -50,11 +52,14 @@ const Routes = (
     <Provider store={store}>
         <BrowserRouter>
             <div>
-                <Route exact path="/" component={HeaderNav} />
+                {/* <Route exact path="/" component={BooksList} />
+                <Route path="/" component={Main} /> */}
                 <Route path="/" component={Main} />
                 <Route path="/admin" component={BooksForm} />
                 <Route path="/cart" component={Cart} />
                 <Route path="/bookdetails" component={BookDetails}/>
+                <Route path="/usercart" component={UserCart}/>
+
             </div>
         </BrowserRouter>
     </Provider>

@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import '../stylesheet/style1.css';
 import { Layout, Menu, Breadcrumb, Icon, Col, Row } from 'antd';
 import 'antd/dist/antd.css';
-import '../stylesheet/style1.css';
-import { Layout, Menu, Breadcrumb, Icon, Col, Row } from 'antd';
-import 'antd/dist/antd.css';
-import '../stylesheet/style1.css';
-import { Layout, Menu, Breadcrumb, Icon, Col, Row } from 'antd';
-import 'antd/dist/antd.css';
 import { Tabs, Card, Affix } from 'antd';
 
 class ProductDetails extends Component {

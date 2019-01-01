@@ -10,6 +10,7 @@ class Main extends Component {
     return (
       <div>
         <Menu cartItemsNumber={this.props.totalQty}/>
+        welcome
         {this.props.children}
         {/* <Footer/> */}
       </div>

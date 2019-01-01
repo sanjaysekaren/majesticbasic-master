@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from "react-redux";
 import '../stylesheet/style1.css';
 import { Layout, Menu, Breadcrumb, Icon, Col, Row } from 'antd';
 import 'antd/dist/antd.css';
